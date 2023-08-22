@@ -1,0 +1,385 @@
+.error {
+    color: red;
+  }
+  
+  .formbox{
+    position: relative;
+    height: 1500px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 100px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+  
+  
+    }
+  
+    .container{
+  
+    /* display: inline-flex; */
+    left: 100px;
+  
+    background-color: #a8b1ec;
+    height: 2000px;
+    max-width: 800px;
+    margin: auto;
+  
+    }
+  
+  
+  
+    .header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    height: 140px;
+    border-bottom: 2px solid #DBDFEA;
+  
+    }
+  
+    label{
+  
+  text-align: left;    
+  }
+  
+  
+  
+    .name,.lname{
+        text-align: left;
+    }
+    #email-input,#pos{
+        margin-bottom: 8px;
+    }
+  
+    #inhead{
+  
+    /* margin-top: 20px; */
+    margin:30px;
+  
+    }
+  
+    /* .emil{
+    margin-top: 20px;
+    display: inline;
+    } */
+  
+    /* #mail,#number{
+    background-color: blue;
+    margin-left: -20px;
+  
+    } */
+    span{
+    text-align: left;
+    }
+  
+    .gendr{
+        text-align: left;
+        margin-left: 50px;
+  
+    }
+    /* Increase radio button's size */
+  input[type='radio']{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+  
+  }
+  .city,.position{
+    margin-left: 40px;
+    text-align: left;
+  }
+  .form-select{
+    margin-top: 10px;
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+  display: flex;
+  background: #e0dfe7;
+  min-height: 100vh;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #date{
+  
+        
+        background-color: #EAEAEA;
+        border-style: solid;
+  
+  
+    width:300px;
+    padding: 5px 5px 5px 20px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  #date:focus{
+    border: none;
+    outline: none;
+  }
+  #calender-icon{
+    position: relative;
+    left: -30px;
+  }
+  
+  .calendar-container {
+  background: #fff;
+    width:350px;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .calendar-container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .calendar-header{
+    border-bottom: 2px solid #aeabab;
+    height: 50px;
+  }
+  
+  header .month,header .year{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  
+  }
+  header .month{
+    margin-left:30px;
+    border-right: 2px solid #aeabab;
+  }
+  header .year{
+    margin-left:50px
+  }
+  
+  header .calendar-current-month{
+    font-size: 1rem;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+  header .calendar-current-year{
+    font-size: 1rem;
+    margin-top: 12px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  
+  header .calendar-month-navigation,header .calendar-year-navigation{
+  display: flex;
+    flex-direction: column;
+  }
+  
+  header .calendar-month-navigation span ,header .calendar-year-navigation span{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: #aeabab;
+    border-radius: 50%;
+  }
+  
+  
+  header .calendar-month-navigation span i ,header .calendar-year-navigation span i{
+    margin: 10px 5px 5px 5px;
+  }
+  
+  
+  header .calendar-month-navigation span:hover,header .calendar-year-navigation span:hover {
+  background: #f2f2f2;
+  }
+  
+  header .calendar-current-date {
+  font-weight: 500;
+  font-size: 1.45rem;
+  }
+  
+  
+  .calendar-body ul {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  
+  }
+  .calendar-body ul .week{
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #486bf0;
+  }
+  .calendar-body .calendar-weekdays{
+    background:#eff3ff;
+  
+  
+    padding:10px 0;
+  
+  }
+  
+  .calendar-body .calendar-dates {
+  margin-bottom: 20px;
+  }
+  
+  .calendar-body li {
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+  color: #414141;
+  }
+  
+  .calendar-body .calendar-weekdays li {
+  cursor: default;
+  font-weight: 600;
+  }
+  
+  .calendar-body .calendar-dates li {
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  }
+  
+  .calendar-dates li.inactive {
+  color: #486bf0;
+  }
+  
+  .calendar-dates li.active {
+  color: #fff;
+  }
+  
+  .calendar-dates li::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .calendar-dates li.active::before {
+  background:#486bf0;
+  }
+  .calendar-dates li.clickedDate::before {
+  border:2px solid rgba(100, 140, 185, 0.95);
+  }
+  
+  .calendar-dates li:not(.active):hover::before {
+  background: #e4e1e1;
+  }
+  
+  .container-right{
+    margin-left: 20px;
+    height: 200px;
+    width:200px;
+  }
+  
+  
+  .container-right-header{
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-right-header .calendar-month-navigation span ,.container-right-header .calendar-year-navigation span{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  color: #aeabab;
+    border-radius: 50%;
+  }
+  
+  
+  .container-right-header  .calendar-month-navigation span i ,.container-right-header  .calendar-year-navigation span i{
+    margin: 10px 5px 5px 5px;
+  }
+  
+  
+  .container-right-header  .calendar-month-navigation span:hover,.container-right-header  .calendar-year-navigation span:hover {
+  background: #f2f2f2;
+  }
+  
+  
+  #drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+    
+    /* width: 80%; */
+  }
+  #drop-area p {
+    margin: 0;
+  }
+  #drop-area.highlight {
+    background-color: #E9E9E9;
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    /* overflow: hidden; */
+    /* display: inline-block; */
+  }
+  
+  #inputFile {
+    position: relative;
+    left: -35px;
+    top: 0px;
+    width: 37px;
+    opacity: 0;
+  }
+  #bdUserUploadIcon {
+    width: 12px;
+    height: 12px;
+    color: #26344A
+  }
+  .bdUserUploadIconBtn {
+    width: 37px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    background: #E4E5E7;
+    margin: 0 -5px 25px 0;
+  }
+  
+  h5{
+    font-weight: bold;
+  }
+  
+  span{
+    color: red ;
+  }
+  
+  .downline{
+  
+    border-top: 2px solid #DBDFEA;
+  
+  }
+  
+  
+  
+  .btndiv{
+    margin-top: 10px;
+  }
+  .btn{
+    width: 150px;
+    margin-left: 10px;
+  }

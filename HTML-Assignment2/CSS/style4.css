@@ -1,0 +1,117 @@
+body{
+    background-color: #ebebeb;
+}
+
+h2{
+    text-align: center;
+}
+.start{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.box{
+    background-color: white;
+    border-color: white;
+  margin-left: 500px;
+}
+form{
+    box-sizing: border-box;
+    width: 500px;
+    height: 1000px;
+    margin: 50px 350px;
+    border: 1px solid black;
+}
+p{
+    font-size: small;
+    margin-left: 30px;
+
+}
+.name{
+    font-weight: bold;
+    color:#094fb0;
+}
+span{
+    color: red;
+}
+.heading{
+    font-family: sans-serif;  
+    font-style: normal;
+   margin: 30px 20px 30px;
+    padding: 10px;
+ 
+}
+.bold{
+
+    margin: 40px 30px 30px;
+    font-family:serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+   
+
+}
+
+.small{ 
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 190px;
+    height: 29px;
+    margin-left: 20px;
+    mix-blend-mode: darken;
+    border: 3px solid #18A8E6;
+    border-radius: 7px;
+}
+.big{
+    margin-top: 5px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 29px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    mix-blend-mode: darken;
+    border: 3px solid #18A8E6;
+    border-radius: 7px;
+}
+.aboutus{
+    box-sizing: border-box;
+    width: 400px;
+    height: 80px;
+    margin-left: 20px;
+    mix-blend-mode: darken;
+    border: 3px solid #18A8E6;
+    border-radius: 7px;
+}
+.btn{
+    width: 215px;
+    height: 40px;
+    
+    color: white;
+    background: #3597F1;
+    
+    background-position: left;
+    box-shadow: 0px 4px 4px ;
+    margin: 50px 130px;
+   
+}
+
+label{
+    
+    font-family: serif;
+    margin-left: 25px;
+    margin-right: 150px;
+   margin-top: 100px;
+
+}
+
+
+.lwt{
+    color: #7B8FA1;
+    font-size: 12px;
+   
+    margin-left: 25px;
+   
+
+}
+b{
+    margin-left: 20px;
+}

@@ -1,0 +1,35 @@
+.container{
+    padding-bottom: 50px;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#B9F3E4;
+}
+p{
+   font-family: Georgia, serif;;
+     text-align: center;
+    font-size: 1.5rem;
+    color: #609966;
+
+}
+h1{text-align: center;
+    color: #1B9C85  ;
+}
+h2{text-align: center;
+    color: #609966;
+}
+h3{text-align: center;
+    color: #674188;
+}
+
+h4{text-align: center;
+    color: #609966;
+}
+
+h5{text-align: center;
+    color: red;
+}
+h6{text-align: center;
+    color: #DBD227
+}

@@ -1,0 +1,105 @@
+
+/* Header */
+
+.topnav {
+  overflow: hidden;
+  background-color: #C0DBEA;
+}
+
+.topnav label {
+  float: left;
+  color: black;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav label:hover {
+  color: #537188;
+}
+
+.left{
+  position: relative;
+  float: right;
+  margin-right: 50px;
+}
+.icon{
+  cursor: pointer;
+ 
+padding-left:50px ;
+
+}
+
+
+/* .style-table {
+
+margin-left: 100px;
+  margin-top: 40px;
+
+  height: 50px;
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 90%;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+} */
+
+.style-table { 
+  table-layout: fixed;
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 80px;
+  text-align: left;
+  background-color: lemonchiffon;
+  border-collapse: collapse; 
+  }
+.style-table th { 
+  background-color: goldenrod;
+  color: white; 
+  }
+.style-table td, 
+.style-table th { 
+  padding: 10px;
+  border: 1px solid goldenrod; 
+  }
+
+
+
+.box{
+  display: inline-block;
+}
+  #edit{
+    display: inline-block;
+    border-radius: 3px;
+  text-align: center;
+   cursor: pointer;
+    width: 30%;
+    background-color: aqua;
+  }
+
+  #delete{
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    background-color: red;
+  }
+  #submit{
+    
+ display: none;
+ /* display: inline-block; */
+ cursor: pointer;
+ border-radius: 3px;
+    text-align: center;
+     width:30%;
+    background-color: green;
+  }
+
+  #bodyName,#deletingName{
+    font-weight: bold;
+  }
+

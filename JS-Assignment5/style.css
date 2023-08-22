@@ -1,0 +1,171 @@
+/* .container #left{
+    position: absolute;
+   margin-top: 100px;
+    display: block;
+    width: 500px;
+    height: 100%;
+    background-color: red;
+}
+*/
+
+#right{
+    /* margin-top: 75px; */
+ border-style: groove;
+    border-width: 7px;
+    
+    
+    
+ 
+}
+#left{
+
+    border-style: groove;
+    border-width: 7px;
+    margin-left: -5px; 
+ 
+}
+#container{
+
+    margin-top: 77px;
+   
+}
+
+#chat{
+
+
+    position:fixed;
+   
+    width: 100%;
+}
+#chatprof{
+    
+    padding: 0px;
+   margin-left: 680px;
+}
+#messagetext{
+    display: flex;
+    /* position:fixed; */
+margin-top: 350px;
+  flex: 1;
+
+
+}
+
+#inputText{
+    width: 80%;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.clip{
+   cursor: pointer;
+    margin-left: 30px;
+}
+
+.user-container {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-name {
+    margin-left: 20px;
+  }
+  
+  .online-status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .status-message {
+    margin-left: 20px;
+  }
+  .messagesectn{
+    position: static;
+    margin-top: 60px;
+  }
+  .msg1{
+    position: static;
+   border-radius: 2px;
+    height: 30px;
+    background-color:#e2dedd;
+display: block;
+    font-size: large;
+    margin-right: 2px;
+    margin-top:10px;
+    color: black;
+    
+  }
+  .msg2{
+    position: static;
+    border-radius: 2px;
+     height: 30px;
+     background-color:#bab4b4;
+     margin-top:10px;
+     font-size: large;
+     margin-right: 2px;
+     color: black;
+
+   }
+   .text2{
+    padding-right: 10px;
+    float: left;
+  
+  }
+
+  .text{
+    padding-right: 10px;
+    float: right;
+  
+  }
+
+
+
+
+
+  .ellipse{
+    
+    
+    float: right;
+    margin-right: 10px;
+   margin-top: -35px;
+  font-size: 1.2rem;
+  
+  }
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    border:groove;
+    border-width: 5px;
+    height: 80px;
+    gap: 20px;
+    
+}
+/* .grid-child purple{
+    border-radius: 50%;
+    background-color: red;
+
+} */
+
+.imge{
+
+    border-radius: 50%;
+    /* border: 4px solid red; */
+    padding: 1px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.headng{
+  margin-top: 8px;
+    font-weight: bold;
+}

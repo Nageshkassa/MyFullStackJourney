@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+  .topnav {
+    overflow: hidden;
+    height: 60px;
+    background-color: #C0DBEA;
+  }
+  
+  .topnav label {
+    float: left;
+ color: #364896;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav label:hover {
+    color: #537188;
+  }
+  .left{
+   margin-top: 15px;
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+  }
+
+body{
+    background-color: #fafbff;
+}
+nav{
+    background-color: #d2dfff;
+}
+.container{
+    min-height: 10 px;
+}
+span{
+    font-family: 'Great Vibes', cursive;
+    color: #19A7CE;
+    font-size: large;
+    
+}
+.pages{
+    position: relative;
+    
+    margin-left: 1210px;
+   
+}
+.opt{
+    color: solid black;
+}
+ul{
+    
+    padding-top: 12px;
+     float: right;
+    
+     list-style-type: none;
+ }
+ul li{
+    display: inline;
+}
+.nav-home{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #374896;
+    cursor: pointer;
+}
+
+.nav-link{
+    
+  color: black;
+    font-size: large;
+    text-align: center;
+    padding: 5px 5px;
+}
+img{
+    background-size: cover; 
+    margin-top: -20px;
+    height: 500px;
+    width: 400px;
+    
+}
+.div2{
+
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: 100px;
+    
+}
+.div1{
+    position: absolute;
+}
+div h2{
+    padding-bottom: 50px;
+    color:#4656b8;
+}
+div p{
+ font-size: large;
+ color: #869ec3;
+}
+.container-fluid{
+    height: 30px;
+    color: #4656b8;
+}
+
+.footer2{
+    height: 20px;
+    color: #364896;
+}
+#footsection{
+    display: inline-flex;
+    position: relative;
+    margin-top: 360px;
+    display: list-item;
+}
+.foot1{
+    height:150px;
+    background-color: #4656b8;
+}
+
+
+i{color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+label{
+   color:  #869ec3;
+}

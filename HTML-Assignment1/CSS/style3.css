@@ -1,0 +1,23 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    color: black;
+}
+.para1{
+    color: red;
+    text-align: right;
+}
+.para2{
+    text-align: justify;
+    color: black;
+}
+.para3{
+    color:blue;
+    text-align: left;
+}
+
+.para4{
+    color: violet;
+    text-align: center;
+}

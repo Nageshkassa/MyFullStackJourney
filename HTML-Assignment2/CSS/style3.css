@@ -1,0 +1,82 @@
+form{
+ 
+    /* padding: 15px 10px 10px 10px; */
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#585858;
+    color: #b8cc44;
+    width: 940px;
+}
+body{
+    background-color: white;
+    margin: 50px 350px;
+}
+.top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #de8704;
+    padding: 10px;
+    color: #f8d094;
+}
+.form{
+    height: auto;
+    width: 500px;
+   
+
+}
+label{
+    margin-left: 50px;
+}
+.fname{
+    margin-left: 120px;
+}
+.lname{
+    margin-left: 120px;
+}
+.dob{
+    margin-left: 150px;
+}
+.gender{
+    margin-left: 145px;
+}
+.country{
+    margin-left: 140px;
+}
+.email{
+    margin-left: 145px;
+}
+
+.phone{
+    margin-left: 150px;
+}
+
+.pass{
+    margin-left: 130px;
+}
+.cpass{
+    margin-left: 65px;
+}
+
+.agrement{
+    margin-left: 240px;
+}
+.bottom{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.sbtn{
+    background-color: green;
+    color: white;
+    margin-left: 190px;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+.cbtn{
+background-color: red;
+color: white;
+padding: 5px 10px;
+font-size: 17px;
+}
+

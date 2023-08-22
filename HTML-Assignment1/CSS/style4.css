@@ -1,0 +1,22 @@
+.container{
+    padding-top: 10px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+ 
+    background-color: #42b0f5;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h3,p{
+  font-family:serif;
+    text-align: center;
+
+    color: yellow;
+}

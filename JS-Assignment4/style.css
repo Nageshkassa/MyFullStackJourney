@@ -1,0 +1,34 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.row {
+    display: flex;
+   background-color: #d8ead2;
+    flex-direction: row;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: #cfe2f3;
+}
+/* .row span{
+    font-weight: bold;
+} */
+
+.row:nth-child(even) {
+    background-color:#fff2cd;
+}
+
+.row span {
+    flex-basis: 20%;
+    padding: 15px;
+}
+.head span{
+    flex-basis: 20%;
+    padding: 15px;
+}

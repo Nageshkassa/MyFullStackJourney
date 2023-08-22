@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Timer</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <i class="fa-regular fa-clock" style="color: #fff"></i>
+        <span><h4>Stopwatch</h4></span>
+      </div>
+      <div class="header-right">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Timer</a></li>
+          <li><a href="#">Clock</a></li>
+          <li><a href="#">Calendar</a></li>
+        </ul>
+      </div>
+    </header>
+    <button id="btn" onclick="">
+  click here for instructions
+
+</button>
+
+    <div class="container">
+
+
+      <div class="box" id="daysBox">
+        <div class="Main" id="dayinpt"></div>
+        <div class="bottom">Days</div>
+      </div>
+
+      <div class="box" id="hoursBox">
+        <div class="Main" id="hrinpt"></div>
+        <div class="bottom">Hours</div>
+      </div>
+
+      <div class="box" id="minutesBox">
+        <div class="Main" id="minuteinpt"></div>
+
+        <div class="bottom">Minutes</div>
+      </div>
+
+      <div class="box" id="secondsBox">
+        <div class="Main" id="secondinpt"></div>
+        <div class="bottom">Seconds</div>
+      </div>
+
+    </div>
+
+
+    <div class="timer">
+      
+      <input class="inptbox" id="days" type="number" min="0" value="0" />
+
+      <input class="inptbox" id="hours" type="number" min="0" value="0" />
+
+      <input class="inptbox" id="minutes" type="number" min="0" value="0" />
+
+      <input class="inptbox" id="seconds" type="number" min="0" value="0" />
+
+      <br />
+
+      
+    </div>
+
+    <br>
+
+    <div class="btncontainer">
+      
+      <button class="btnbox" id="setTimerButton">Set Timer</button>
+      <button id="startButton">Start/Resume</button>
+      <button id="pauseButton">Pause</button>
+      <button id="resetButton">Reset</button>
+   
+    </div>
+
+
+  <div id="footer" onclick="func()">
+   <h3>Instruction</h3>
+    <ol>
+      <li>
+        &nbsp &nbsp Enter the values in the inputs.
+      </li>
+      <li>
+        &nbsp &nbsp Press the SetTimer Button to set the timer. 
+      </li>
+<li>
+  &nbsp &nbsp  Press the Start/Resume Button to start the timer.
+</li>
+<li>
+  &nbsp &nbsp Pause the Timer if you want to pause .
+</li>
+<li>
+  &nbsp &nbsp Press Start/Resume Button to resume the timer.
+</li>
+<li>
+  &nbsp &nbsp Press the Reset Button to reset the values.
+</li>
+    </ol>
+    <div id="icon">
+      <i class="fa-solid fa-greater-than fa-rotate-270 fa-2xl" style="color: #b4c4df;"></i>
+    </div>
+
+  </div>
+
+
+
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

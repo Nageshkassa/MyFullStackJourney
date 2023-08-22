@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../JS-Assignment2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,158 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  /* line-height: 1.666; */
+  background: #e4e4e6;
+}
+.skills {
+  /* padding: 0 30px 0 30px; */
+  text-align: center;
+  font-weight: bold;
+}
+.bottomdata {
+  /* color: #88868b; */
+
+  padding-top: 10px;
+}
+h3 {
+  color: #0e2954;
+  font-weight: bolder;
+}
+.status {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* h1 {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+h1 span {
+  padding: 5px 15px;
+  background: #2ec2b0;
+} */
+
+.dictionary {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+  /* background-color: blue; */
+  /* max-width: 90%; */
+}
+
+.card {
+  text-align: center;
+  /* max-width: 20rem; */
+
+  width: 280px;
+  height: 500px;
+  margin: 2rem;
+  /* padding: 2rem; */
+  border-radius: 25px;
+  border: 2px;
+
+  background-color: #fff;
+  position: relative;
+
+  /* transition: all 100ms ease-in-out; */
+}
+.card:hover {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.top {
+  /* border-radius: 0 0 25px 25px;
+  padding-top: 20px;
+  opacity: 0.8;
+  margin-top: 240px;
+  text-align: center;
+  position: relative;
+
+  background-color: #f5f5f7;
+  width: 100%;
+  height: 99%; */
+  /* background-color: black; */
+
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  height: 0;
+}
+.circle-img {
+  margin-left: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.dictionary > .card > dt {
+  margin-bottom: 1rem;
+}
+.bottom {
+  /* border-radius: 0 0 30px 30px; */
+  position: absolute;
+  opacity: 1;
+  /* z-index: 1; */
+  top: 200px;
+  /* height: 99%; */
+
+  border-radius: 0 0 25px 25px;
+  background: #f9f9f9;
+
+  font-weight: bold;
+  width: 100%;
+  bottom: 0;
+  /* height: 50%; */
+  /* height: 99%; */
+
+  /* height: 0; */
+}
+
+/* dt {
+  color: #2ec2b0;
+  line-height: 1;
+} */
+
+/* dt span {
+  font-size: 200%;
+  font-weight: 900;
+} */
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .card {
+  margin-bottom: 1rem;
+}

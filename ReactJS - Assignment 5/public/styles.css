@@ -1,0 +1,121 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  /* line-height: 1.666; */
+  background: #e4e4e6;
+}
+.skills {
+  /* padding: 0 30px 0 30px; */
+  text-align: center;
+  font-weight: bold;
+}
+.bottomdata {
+  /* color: #88868b; */
+
+  padding-top: 10px;
+}
+h3 {
+  color: #0e2954;
+  font-weight: bolder;
+}
+.status {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.card {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  width: 280px;
+  height: 500px;
+  margin: 3rem;
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+
+  /* transition: all 100ms ease-in-out; */
+}
+.card:hover {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.top {
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  height: 0;
+}
+.circle-img {
+  margin-left: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.dictionary > .card > dt {
+  margin-bottom: 1rem;
+}
+.bottom {
+  position: absolute;
+  opacity: 1;
+
+  top: 200px;
+  /* height: 99%; */
+
+  border-radius: 0 0 25px 25px;
+  background: #f9f9f9;
+  /* background-color: red; */
+  font-weight: bold;
+  width: 100%;
+  bottom: 0;
+}
+
+#cvbtn {
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+  border-color: #0d6efd;
+  background-color: transparent;
+  color: #0d6efd;
+  transition: 0.3s;
+}
+#cvbtn:hover {
+  border-color: #0d6efd;
+  background-color: #0d6efd;
+  cursor: pointer;
+  color: white;
+}
+#offerbtn {
+  width: 200px;
+  margin-top: 8px;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #0d6efd;
+  color: white;
+}
+#offerbtn:hover {
+  border: 2px solid #0d6efd;
+  border-color: #0d6efd;
+  cursor: pointer;
+  background-color: #2192ff;
+}

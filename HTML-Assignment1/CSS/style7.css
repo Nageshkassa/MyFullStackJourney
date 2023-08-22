@@ -1,0 +1,24 @@
+.container{
+    padding-bottom: 50px;
+    background-color: #ADE792;
+}
+.p1{padding-top: 30px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: #9E4784;
+}
+.p2{
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+      
+      color: #8118CC;
+  
+  }
+  .p3{
+    font-size: large;
+    color: #146C94;
+    text-decoration: underline;
+    text-align: center;
+  }

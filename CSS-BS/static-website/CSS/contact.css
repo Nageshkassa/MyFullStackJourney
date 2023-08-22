@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+    background-color: #fafbff;
+}
+.container{
+    min-height: 10 px;
+}
+span{
+    font-family: 'Great Vibes', cursive;
+    color: #19A7CE;
+    font-size: large;
+    
+}
+.pages{
+    position: relative;
+    
+    margin-left: 1210px;
+   
+}
+.opt{
+    color: solid black;
+}
+ul{
+    
+    padding-top: 12px;
+     float: right;
+    
+     list-style-type: none;
+ }
+ul li{
+    display: inline;
+}
+.nav-contact{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #374896;
+    cursor: pointer;
+}
+label{
+    padding-top: 20px;
+}
+
+.nav-link{
+    
+  color: black;
+    font-size: large;
+    text-align: center;
+    padding: 5px 5px;
+}
+img{
+    background-size: cover; 
+    margin-top: -20px;
+    height: 500px;
+    width: 400px;
+    
+}
+.div2{
+
+    display: inline;
+    position: relative;
+    left: 600px;
+    top: 100px;
+    
+}
+.div1{
+    position: absolute;
+}
+div h2{
+    padding-bottom: 50px;
+    color:#4656b8;
+}
+i{
+    margin-right: 20px;
+}
+div p{
+ font-size: large;
+ color: #869ec3;
+}
+.container-fluid{
+    height: 30px;
+    color: #4656b8;
+}
+
+.footer2{
+    height: 20px;
+    color: #364896;
+}
+.footsection{
+    margin-top: 285px;
+    display: list-item;
+}
+.foot1{
+    height: 50px;
+    background-color: #4656b8;
+}
+
+.foot2{
+    height: 40px;
+    background-color: #374896;
+
+}
+i{
+    padding: 10px 10px 10px 10px;
+}
+label{
+   color:  #869ec3;
+}

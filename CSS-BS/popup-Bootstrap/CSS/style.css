@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    background-color: #a8b1ec;
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+span{
+    color: red;
+   
+}
+h2{
+    padding-top: 20px;
+}
+.container{
+    box-sizing: border-box;
+    width: 780px;
+    height: auto;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.form{
+    margin-top: 10px;
+    border-top: 2px solid black;
+    padding: 40px;
+}
+.b{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: #6976cb;
+    border: 2px solid #6976cb;
+    border-radius: 10px;
+    
+    
+    
+}
+.b:hover{
+    box-shadow: 5px 5px  #6976cb;
+    border: 2px solid  #a8b1ec;
+}
+/* drag and drop */
+#drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  #drop-area p {
+    margin: 0;
+  }
+  #drop-area.highlight {
+    background-color: #E9E9E9;
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    /* overflow: hidden; */
+    /* display: inline-block; */
+  }
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 30;
+    top: 50;
+    opacity: 0;
+  }
+  #bdUserUploadIcon {
+    width: 12px;
+    height: 12px;
+   
+}
+  .bdUserUploadIconBtn {
+    width: 37px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+   
+    margin: 0 -5px 25px 0;
+}
+#choose{
+    display: none;
+}

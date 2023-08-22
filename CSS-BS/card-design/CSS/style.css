@@ -1,0 +1,46 @@
+.box{
+    height: 100px;
+  width: 150px;
+   display: inline-block;
+   border: 2px solid blue;
+   margin:20px 0px 0 20px;
+  text-align: center;
+  background-color: #ADD8E6;
+    
+}
+/* .box2{
+    height: 100px;
+  width: 150px;
+   display: inline-block;
+   border: 2px solid blue;
+   margin:20px 0px 0 20px;
+  text-align: center;
+  background-color: #ADD8E6;
+    
+} */
+
+
+p{
+    margin-top: 35px;
+}
+
+#red:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+#green:hover{
+    background-color: green;
+    cursor: pointer;
+    
+}
+#blue:hover{
+    background-color:blue;
+    cursor: pointer;
+    
+}
+#yellow:hover{
+    background-color: yellow;
+    cursor: pointer;
+    
+}

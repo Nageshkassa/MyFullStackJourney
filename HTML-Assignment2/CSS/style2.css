@@ -1,0 +1,65 @@
+form{
+    background-color: #ccff9a;
+    padding: 15px 10px 10px 10px;
+    font-family:cursive ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+fieldset{
+    width: 900px;
+    
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    /* border-bottom-style: double; */
+    /* border-style:line  double; */
+    background-color: #00fe67;
+    
+}
+legend{
+    font-size: 2rem;
+    
+
+   
+    text-align: center;
+}
+.labeladd{
+    margin-top: 100px;
+    align-items: center;
+   /* margin-bottom: 500px; */
+    /* align-items: first baseline; */
+}
+.name{
+    margin-left: 120px;
+}
+.password{
+    margin-left: 130px;
+}
+.gender{
+    margin-left: 158px;
+}
+.add{
+    
+    margin-top: -20px;
+    height: 60px;
+    margin-left: 250px;
+}
+.dob{
+    margin-left: 180px;
+}
+.game{
+    margin-left: 100px;
+}
+.status{
+    margin-left: 75px;
+}
+.btn{
+    margin-left: 250px;
+}
+.agrement{
+    margin-top: 20px ;
+    margin-bottom: 50px;
+    margin-left: 245px;
+}

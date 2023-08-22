@@ -1,0 +1,27 @@
+/* .container{
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+h2{
+    text-align: center;
+    color: blue;
+}
+.p1{
+  
+   text-align-last: right;
+   
+}
+.p2{
+    text-align: justify;
+   padding: auto;
+}
+
+.p3{
+    text-align: justify;
+   padding: auto;
+}
+.p4{
+    text-align: center;
+}

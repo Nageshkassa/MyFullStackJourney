@@ -1,0 +1,52 @@
+div{
+    padding-bottom: 50px;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ACB1D6;
+
+}
+h3{padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: serif;
+    color: blue;
+}
+.type1{
+    font-family: sans-serif;
+    text-align: left;
+    color: #E86A33;
+}
+.type2{
+    font-family: sans-serif;
+    text-align: right;
+    color: darkblue;
+}
+.type3{
+    font-family: sans-serif;
+    text-align: center;
+    color: #753188;
+}
+
+.type4{
+ 
+    font-family: sans-serif;
+    text-align: center;
+    color: #A555EC;
+}
+#id1{
+    font-style: italic;
+}
+#id2{
+    font-style: italic;
+}
+
+#id3{
+    font-style: italic;
+}
+
+#id4{
+    font-style: italic;
+}
+
