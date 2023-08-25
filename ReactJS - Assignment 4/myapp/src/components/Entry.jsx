@@ -53,32 +53,19 @@ function Entry(props) {
           {props.skills[0]}, {props.skills[1]},{props.skills[2]} ,{" "}
           {props.skills[3]}
         </p>
-
-        <div className="name">
-          {/* <label>{props.name}</label> */}
-          <br />
-          <strong>{props.rop}</strong>
-        </div>
       </div>
 
       <div className="bottom">
         <div className="bottomdata">
           <h3>{props.name}</h3>
           <p>
-            <strong>
-              <i className="location fa-solid fa-location-dot" />
-              {"\t"}
-              <span> {props.city}</span>
-            </strong>
+            <i className="location fa-solid fa-location-dot" />
+            {"\t"}
+            <span> {props.city}</span>
           </p>
-          <div className="buttons d-grid gap-2 col-6 mx-auto">
-            <button type="button" className="btn btn-outline-primary ">
-              VIEW CV
-            </button>
-            <br />
-            <button className="btn btn-primary" type="button">
-              MAKE OFFER
-            </button>
+          <div>
+            <button id="cvbtn">View CV</button>
+            <button id="offerbtn">Make Offer</button>
 
             <div>
               <p className="status">

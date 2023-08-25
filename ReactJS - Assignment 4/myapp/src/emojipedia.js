@@ -31,7 +31,7 @@ const emojipedia = [
     city: "Mumbai",
     skills: ["JavaScript", "React", "HTML", "CSS"],
     name: "Himanshu",
-    status: "2023-07-27T08:45:00"
+    status: "2023-08-25T08:45:00"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const emojipedia = [
     img: img4,
     skills: ["JavaScript", "React", "HTML", "CSS"],
     name: "Shubham",
-    status: "2023-07-22T14:20:00"
+    status: "2023-08-22T14:20:00"
   }
 ];
 
